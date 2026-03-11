@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: data-demo-api
+  namespace: dev
   labels:
     app: data-demo-api
 spec:
